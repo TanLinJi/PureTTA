@@ -1,0 +1,21 @@
+# 忽略模型和权重
+*.pt
+*.pth
+*.bin
+*.ckpt
+
+# 忽略数据文件
+*.npy
+*.npz
+*.dat
+*.h5
+
+# 忽略环境和缓存
+.conda/
+.vscode/
+__pycache__/
+
+# 忽略可能产生大文件的输出目录 (根据你 PureTTA 的实际目录结构调整)
+outputs/
+experiments/
+data/
